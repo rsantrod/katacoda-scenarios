@@ -7,7 +7,5 @@ If you don't have an OCI Tenancy yet, you have to go back to the first scenario 
 You can access the first scenario with the following link:
 https://katacoda.com/redexpertalliance/courses/oci-course/oci-lab-preparation-cloud-trial
 
-
 ![Oracle Digital Assistant Logo](assets/oda-sticker.png)
 
-ññ
