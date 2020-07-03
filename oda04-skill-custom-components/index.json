@@ -30,7 +30,7 @@
     }
   },
   "environment": {
-        "uieditorpath": "/root/example",
+        "uieditorpath": "/root/ODAComponents",
         "showide": true,
         "idePort": 23000,
         "uilayout": "terminal"
