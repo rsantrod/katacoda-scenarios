@@ -9,5 +9,7 @@ In the dialog, you have to mandatory fill name and shape.
 1. For the name, you can add something that identifies your instance. In the screen you can see I named it 'odadev'.
 
 2. For the shape, you have two options:
+
 ..* Development
+
 ..* Production
