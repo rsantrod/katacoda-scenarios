@@ -10,6 +10,10 @@ In the dialog, you have to mandatory fill name and shape.
 
 2. For the shape, you have two options:
 
-  * Development
+  * Development: minimum charge of 50 request per hour at the time of writing.
 
-  * Production
+  * Production: minimum charge of 250 request per hour at the time of writing.
+
+As you can see, the only difference is the number of requests and, for this hands-on, you can use the development shape so yoour credits will last longer.
+
+Once you have filled the details click on 'Create'.
