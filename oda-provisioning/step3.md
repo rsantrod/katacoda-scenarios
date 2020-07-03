@@ -10,6 +10,6 @@ In the dialog, you have to mandatory fill name and shape.
 
 2. For the shape, you have two options:
 
-..* Development
+  * Development
 
-..* Production
+  * Production
