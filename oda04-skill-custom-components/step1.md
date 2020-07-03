@@ -1,3 +1,13 @@
 
 
 
+Click on 'View' menu and then select 'Terminal'
+
+`npm install -g @oracle/bots-node-sdk"`{{execute IDE}}
+
+
+
+mkdir weather-component
+
+
+cd weather-component
