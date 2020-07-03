@@ -27,12 +27,3 @@ Last but not least, in order to execute the component locally you need to instal
 
 `npm install --save-dev express`{{execute}}
 
-
-
-
-
-
-
-
-
-`bots-node-sdk service -P 3000`{{execute}}

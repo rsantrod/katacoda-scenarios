@@ -1,7 +1,11 @@
-Once you click on it, on the following screen you will need to select a Compartment.
 
-As explained in the past scenarios, a Compartment allows you to organize and isolate your cloud resources to control the access to those resources.
+Great! All the configurations have been made and now you are ready for implementation!
 
-For this hands-on, you can select the root compartment. Then proceed to the next step!
 
-![OCI console - Digital Assistant - Select Compartment](assets/select-compartment.jpg)
+
+
+
+
+`bots-node-sdk service -P 3000`{{execute}}
+
+https://2886795332-3000-cykoria08.environments.katacoda.com
