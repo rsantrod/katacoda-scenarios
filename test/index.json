@@ -28,8 +28,7 @@
   "environment": {
         "uieditorpath": "/root/example",
         "showide": true,
-        "idePort": 23000,
-        "uilayout": "terminal"
+        "idePort": 23000
   },
   "backend": {
     "imageid": "ubuntu"
