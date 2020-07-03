@@ -8,8 +8,6 @@
 
 `npm init -y`{{execute}}
 
-`npm install --save-dev @oracle/bots-node-sdk`{{execute}}
-
 `npm install --save-dev express`{{execute}}
 
 `bots-node-sdk init`{{execute}}
