@@ -3,7 +3,7 @@ Great! All the configurations have been made and now you are ready for implement
 
 
 
-
+https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com/
 
 
 `bots-node-sdk service -P 3000`{{execute}}
