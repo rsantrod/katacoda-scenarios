@@ -8,7 +8,7 @@ As you can see in the image below, there are some folder and files that you will
 This would be the page where you will display the widget. For example, if you want to display the widget in all the pages of your application you would include 
 
 
-<pre>
+<pre><code>
 12    <script src="scripts/settings.js"></script>
 13    <script src="scripts/web-sdk.js" onload="initSdk('Bots')"></script>
-</pre>
+</code></pre>
