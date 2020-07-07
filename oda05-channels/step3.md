@@ -1,19 +1,14 @@
-Now you can click on 'Create Digital Assistant Instance' button.
 
-![OCI console - Create Digital Assistant Instance button](assets/create-instance-button.jpg)
+The channel has been successfully created but now we need to configure it as by default theres no skill associated and it is disabled as well.
 
-In the dialog, you have to mandatory fill name and shape.
+You need to store the Channel ID as this needs to be configured later in the scenario on the web widget.
 
-![OCI console - Create Digital Assistant Instance dialog](assets/create-instance-dialog.jpg)
+![Oracle Digital Assistant - channel details](assets/oda-channels-created.jpg)
 
-1. For the name, you can add something that identifies your instance. In the screen you can see I named it 'odadev'.
+Click on the button maked in the picture above to select the skill and select your weatherSkill as you can see in the picture below.
 
-2. For the shape, you have two options:
+![Oracle Digital Assistant - associate skill to channel](assets/oda-channels-select-skill.jpg)
 
-  * Development: minimum charge of 50 request per hour at the time of writing.
+Now you just need to activate the channel.
 
-  * Production: minimum charge of 250 request per hour at the time of writing.
-
-As you can see, the only difference is the number of requests and, for this hands-on, you can use the development shape so yoour credits will last longer.
-
-Once you have filled the details click on 'Create'.
+![Oracle Digital Assistant - activate channel](assets/oda-channels-activate.jpg)

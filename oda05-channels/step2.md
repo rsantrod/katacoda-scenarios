@@ -1,7 +1,13 @@
-Once you click on it, on the following screen you will need to select a Compartment.
+By clicking on '+ channel' button you will see the creation dialog.
 
-As explained in the past scenarios, a Compartment allows you to organize and isolate your cloud resources to control the access to those resources.
+![Oracle Digital Assistant - create channel dialog](assets/oda-channels-create-dialog.jpg)
 
-For this hands-on, you can select the root compartment. Then proceed to the next step!
+You have to fill the values like the picture above.
 
-![OCI console - Digital Assistant - Select Compartment](assets/select-compartment.jpg)
+* Name: I suggest to give it a name that identifies the place where you are going to set up the widget, not the skill that is going to be exposed itself.
+* Channel Type: In this case, as we are setting it up on a web site, you have to choose 'Oracle Web'.
+* Allowed Domains: You can restrict what domains can communicate with the channel, and you actually want to restrict this on a production environment. For the hards-on you can just set '*',
+* Client Authentication Enabled: By enabling this flag, you enforce using JSON Web Tokens (JWT) that is used for communication between the client and the chat server. For the hands-on we will leave it disabled.
+* Session Expiration: By default is set for its max value of 60 seconds.
+
+Click on 'Create' button once you have filled all the information. 

@@ -1,4 +1,7 @@
-Provisioning an Oracle Digital Assistant instance is an easy task. First you need to open your OCI console.
-On the left hand side, in the menu you will find 'Digital Assistant'. Click on it!
+In your Oracle Digital Assistant console menu, under Development click on 'Channels'.
 
-![OCI console - Dashbaord](assets/oci-console.jpg)
+![Oracle Digital Assistant - channels menu](assets/oda-channels-menu.jpg)
+
+
+
+![Oracle Digital Assistant - create channel button](assets/oda-channels-create-button.jpg)
