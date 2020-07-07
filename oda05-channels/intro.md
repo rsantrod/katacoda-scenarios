@@ -1,14 +1,9 @@
 
-This scenario will help you to provision an Oracle Digital Assistant instance. 
+This scenario will help you to setup and configure a web widget to expose the Skill you created in the past scenarios.
 
 ![Oracle Digital Assistant Logo](assets/oda-sticker.jpg)
 
-The assumption is that you are the administrator of the tenancy - either a fresh or preexisting cloud trial or a "regular" OCI tenancy.
+![Oracle Digital Assistant widget](assets/widget-intro.jpg)
 
-If you don't have an OCI Tenancy yet, you have to go back to the first scenario in the OCI Course and do the 'Step 1 - Get hold of an OCI Tenancy' to get a Free Trial.
-
-You can access the first scenario with the following link:
-https://katacoda.com/redexpertalliance/courses/oci-course/oci-lab-preparation-cloud-trial
-
-
+<pre>In order to successfully run this scenario and test the skill created, [scenario 4](https://www.katacoda.com/rsantrod/scenarios/oda04-skill-custom-components) has to be up and running as the Custom Component consumed from the ODA Skill is hosted in that katacoda environment.</pre> 
 
