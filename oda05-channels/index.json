@@ -34,8 +34,10 @@
         "showide": true,
         "idePort": 23000,
         "uilayout": "terminal-iframe",
+		"showdashboard": true,
 		"dashboards": [
 			{"name": "Digital Assistant Web Widget", "port": 3000}
+		]
   },
   "backend": {
     "imageid": "ubuntu"
