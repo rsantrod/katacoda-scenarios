@@ -33,10 +33,7 @@
         "uieditorpath": "/root/ODAComponents",
         "showide": true,
         "idePort": 23000,
-		"showdashboard": true,
-		"dashboards": [
-			{"name": "Digital Assistant Web Widget", "port": 3000},
-        "uilayout": "terminal"
+        "uilayout": "terminal-iframe"
   },
   "backend": {
     "imageid": "ubuntu"
