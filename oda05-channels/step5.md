@@ -9,6 +9,6 @@ This would be the page where you will display the widget. For example, if you wa
 
 
 <pre><code>
-12    <script src="scripts/settings.js"></script>
-13    <script src="scripts/web-sdk.js" onload="initSdk('Bots')"></script>
+	12    <script src="scripts/settings.js"></script>
+	13    <script src="scripts/web-sdk.js" onload="initSdk('Bots')"></script>
 </code></pre>
