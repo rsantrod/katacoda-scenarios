@@ -1,4 +1,4 @@
-By clicking on '+ channel' button you will see the creation dialog.
+By clicking on '+ Channel' button you will see the creation dialog.
 
 ![Oracle Digital Assistant - create channel dialog](assets/oda-channels-create-dialog.jpg)
 
