@@ -10,20 +10,16 @@ As you can see, YAML has 2 spaces indent. In the flow editor, you can tab and th
 
 Just below 'states:', andd the following code.
 ```
-<pre>
-    <code>
-      intent:
-        component: "System.Intent"
-        properties:
-        variable: "iResult"
-        transitions:
-          actions:
-            Greetings: "greet"
-            WeatherForecast: "initWeatherForecast"
-            Help: "help"
-            unresolvedIntent: "unresolved"
-    </code>
-</pre>
+    intent:
+      component: "System.Intent"
+      properties:
+      variable: "iResult"
+      transitions:
+        actions:
+          Greetings: "greet"
+          WeatherForecast: "initWeatherForecast"
+          Help: "help"
+          unresolvedIntent: "unresolved"
 ```{{copy}}
 
 The 'intent' state is using a 'System.Intent' component. This component is the one that triggers the Intent resolution.
