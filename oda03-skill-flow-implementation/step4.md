@@ -1,13 +1,33 @@
-Now, you have requested the creation of your Oracle Digital Assistant Instance and it will take a few minutes to complete!
+The last part of the implementation is to actually print the weather to the user.
+You will use a "System.CommonResponse" component for it. This is a very powerful component that enabled you to display cards (on channel that support it), send attachments such as image or video, and send the location of the user.
 
-![OCI console - Instance in Creating status](assets/creating-instance-status.jpg)
+In this case you will use it to display the information as a card.
+<pre>
+    <code>
+    printWeather:
+      component: "System.CommonResponse"
+      properties:
+        keepTurn: true
+        processUserMessage: false
+        metadata: 
+          responseItems:         
+          - type: "cards" 
+            cardLayout: "vertical"
+            cards:
+            - title: "Madrid - 15/07/2020"
+              description: "20º - Clear"
+              imageUrl: "http://openweathermap.org/img/wn/10d@2x.png"
+              cardUrl: "https://www.redexpertalliance.com/" 
+      transitions:
+        next: "endConversationThanks"
 
-You will receive an email once the instance is created and in Active status. To access the environment, you can click on the button with 'three dots' and select 'Service Console'
-
-![OCI console - Instance in Creating status](assets/access-service-console.jpg)
-
-
-Congratulations! You have now finished the first scenario and have your Oracle Digital Assistance Instance set up!
-
-
-You can now move to the next one, where you will create an Skill and define Intents and Entities.
+    endConversationThanks:
+      component: "System.Output"
+      properties:
+        text: "Thanks for using my services. Feel free to ask me again before leaving your home!"
+      transitions:
+        return: "done"
+    </code>
+</pre>
+Not much to say about it at the moment, type property under responseItems defines the type of the component (cards, atachment...) and then under cards property you are setting the values for the different facets of the card. 
+The same way you used keepTurn in previous steps, it can be used on 'System.CommonResponse' component but, in this case, you need to set to false 'processUserMessage' property.

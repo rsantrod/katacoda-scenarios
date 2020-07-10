@@ -18,8 +18,12 @@
         "text": "step3.md"
       },
       {
-        "title": "Step 4",
+        "title": "Step 4 - System.CommonResponse",
         "text": "step4.md"
+      },
+      {
+        "title": "Step 5 - Validating and Testing your Skill",
+        "text": "step5.md"
       }
     ],
     "intro": {

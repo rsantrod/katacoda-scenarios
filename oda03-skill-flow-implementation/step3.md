@@ -11,7 +11,6 @@ Check your code so it looks like the following.
         iResult: "nlpresult"
     </code>
 </pre>
-
 Add the following code at the end of the existing code.
 <pre>
     <code>
