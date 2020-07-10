@@ -6,27 +6,27 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Step 1 - Enable LOCATION Entity",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Step 2 - Create Skill",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Step 3 - ODA Overview",
         "text": "step3.md"
       },
       {
-        "title": "Step 4",
+        "title": "Step 4 - Create Intents",
         "text": "step4.md"
       },
       {
-        "title": "Step 5",
+        "title": "Step 5 - Add Entities to the Intents",
         "text": "step5.md"
       },
       {
-        "title": "Step 6",
+        "title": "Step 6 - Testing & Training",
         "text": "step6.md"
       }
     ],

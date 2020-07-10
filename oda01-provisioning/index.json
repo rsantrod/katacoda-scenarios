@@ -6,19 +6,19 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Step 1 - Access Digital Assistance in OCI Console",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Step 2 - Select Compartment",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Step 3 - Create Instance",
         "text": "step3.md"
       },
       {
-        "title": "Step 4",
+        "title": "Step 4 - Verify the installation and access the Instance",
         "text": "step4.md"
       }
     ],
