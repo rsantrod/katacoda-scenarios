@@ -13,7 +13,6 @@ Just below 'states:', andd the following code.
 
 <pre>
     <code>
-
       intent:
         component: "System.Intent"
         properties:
@@ -24,7 +23,6 @@ Just below 'states:', andd the following code.
             WeatherForecast: "initWeatherForecast"
             Help: "help"
             unresolvedIntent: "unresolved"
-
     </code>
 </pre>
 
