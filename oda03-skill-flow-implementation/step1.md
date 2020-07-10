@@ -9,7 +9,7 @@ By default, the flow is initializated with an example. You can delete all the li
 As you can see, YAML has 2 spaces indent. In the flow editor, you can tab and the cursor will move two spaces to the right.
 
 Just below 'states:', andd the following code.
-`
+``
     intent:
       component: "System.Intent"
       properties:
@@ -20,7 +20,7 @@ Just below 'states:', andd the following code.
           WeatherForecast: "initWeatherForecast"
           Help: "help"
           unresolvedIntent: "unresolved"
-`{{copy}}
+``{{copy}}
 
 The 'intent' state is using a 'System.Intent' component. This component is the one that triggers the Intent resolution.
 
