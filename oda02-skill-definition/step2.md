@@ -7,4 +7,4 @@ To create the skill click on 'New Skill' button. The following dialog will appea
 
 ![Oracle Digital Assistant create skill](assets/skill-creation-dialog.jpg)
 
-In the dialog fill the display name of your skill 'WeatherSkill' and click on 'Create' button.
+In the dialog fill the display name of your skill with 'WeatherSkill' and click on 'Create' button.
