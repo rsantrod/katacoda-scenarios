@@ -10,7 +10,7 @@ As you can see, YAML has 2 spaces indent. In the flow editor, you can tab and th
 
 Just below 'states:', andd the following code.
 ``
-    intent:
+        intent:
       component: "System.Intent"
       properties:
       variable: "iResult"
