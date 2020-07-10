@@ -1,13 +1,33 @@
-Now, you have requested the creation of your Oracle Digital Assistant Instance and it will take a few minutes to complete!
+Now you can start creating the intents for your skill!
+You will create three intents for your skill:
+  * Greetings: Any chatbot has to be polite and reply accordingly to a 'Hello'. This is usefull to indicate what can you do for the user.
+  * WeatherForecast: Main intent of the skill. 
+  * Help: You would usually have a help intent in case the user does not know how to use the bot.
 
-![OCI console - Instance in Creating status](assets/creating-instance-status.jpg)
+Let's start with Greetings Intent. Go to Intents page and click on '+ Intent'
 
-You will receive an email once the instance is created and in Active status. To access the environment, you can click on the button with 'three dots' and select 'Service Console'
+![Oracle Digital Assistant Intent page](assets/skill-intents-page_empty.jpg.jpg)
 
-![OCI console - Instance in Creating status](assets/access-service-console.jpg)
+Change Conversation Name, by clcking on the pencil to the right, and Name properties to Greetings.
+Under Examples, enter the following utterances or phrase examples.
+
+| Utterances    |
+| ------------- |
+| Good morning  |
+| Hello         |
+| Hey           |
+| Hi            |
+
+![Oracle Digital Assistant Intent details](assets/create-intent.jpg)
+
+Now you have to repeat the process with the other two intents and the following utterances:
 
 
-Congratulations! You have now finished the first scenario and have your Oracle Digital Assistance Instance set up!
-
-
-You can now move to the next one, where you will create an Skill and define Intents and Entities.
+| Intent            | Utterances                                            |
+|-------------------|-------------------------------------------------------|
+| WeatherForecast   | is it raining in London                               |
+|                   | what is the temperature in New York                   |
+|                   | what's the weather forecast in Madrid for tomorrow    |
+| Help              | I don't know how to use the bot                       |
+|                   | I need help                                           |
+|                   | What can I do                                         |
