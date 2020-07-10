@@ -1,7 +1,10 @@
-Once you click on it, on the following screen you will need to select a Compartment.
+Now that LOCATION entity is available, you can create your skill.
+On the main menu, click on Skills and you will see the list of skills (If it is the first time you access your environment it will be empty).
 
-As explained in the past scenarios, a Compartment allows you to organize and isolate your cloud resources to control the access to those resources.
+![Oracle Digital Assistant skills dashboard](assets/skills-dashboard.JPG)
 
-For this hands-on, you can select the root compartment. Then proceed to the next step!
+To create the skill click on 'New Skill' button. The following dialog will appear.
 
-![OCI console - Digital Assistant - Select Compartment](assets/select-compartment.jpg)
+![Oracle Digital Assistant create skill](assets/skill-creation-dialog.JPG)
+
+In the dialog fill the display name of your skill 'WeatherSkill' and click on 'Create' button.

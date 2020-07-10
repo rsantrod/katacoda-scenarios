@@ -1,14 +1,8 @@
-Configuration in ODA Platform is now completed, and now we need to install and configure the web widget.
+Now, lets review in settings.js file in a bit more detail as you will be modifying it.
 
-First, you have to move into the same folder where the VSCode workspace is.
+The first few functions: mockApiCall, generateJWTToken and generateToken are a starting point in case you want to enforce client authentication in your channel, so you can ignore it for this hands-on.
+As we are ignoring, or not enabling client authentication, you have to make sure that 'isClientAuthEnabled' is set to false.
 
-`cd ODAComponents`{{execute}}
-
-For a production environment you want to download the SDK from the [Oracle ODA Downloads](https://www.katacoda.com/rsantrod/scenarios/oda04-skill-custom-components) page, but for this hands-on there is a node application preconfigured on Github.
-Clone the repository where the widget app is stored.
-
-`git clone https://github.com/rsantrod/katacoda-oda-widget-runable.git`{{execute}}
-
-Lastly install the required node modules that are registered on package.json file
-
-`npm install`{{execute}}
+<pre><code>
+	4 const isClientAuthEnabled = false;
+</code></pre>

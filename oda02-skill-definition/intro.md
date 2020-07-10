@@ -1,14 +1,8 @@
-
-This scenario will help you to provision an Oracle Digital Assistant instance. 
-
 ![Oracle Digital Assistant Logo](assets/oda-sticker.jpg)
 
-The assumption is that you are the administrator of the tenancy - either a fresh or preexisting cloud trial or a "regular" OCI tenancy.
+At the end of the next 4 scenarios you will have built your own Weather Assistant! 
+Giving a location and optionally a date, the chatbot will consume a weather API to retrieve the weather information.
 
-If you don't have an OCI Tenancy yet, you have to go back to the first scenario in the OCI Course and do the 'Step 1 - Get hold of an OCI Tenancy' to get a Free Trial.
+In these scenarios you will read a lot the word skill. An skill is an individual chatbots that are focused on specific tasks. The same way, you can have multiple skills in Alexa, in terms of Oracle Digital Asistant, you may have multiple skills within the same Digital Assistant (or Master Bot, as I like to call it).
 
-You can access the first scenario with the following link:
-https://katacoda.com/redexpertalliance/courses/oci-course/oci-lab-preparation-cloud-trial
-
-
-
+In this first scenario you are going to define the intents needed for the skill and training the NLP model so the input provided is matched with the correct intent.
