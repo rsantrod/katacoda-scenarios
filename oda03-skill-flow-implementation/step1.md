@@ -9,7 +9,6 @@ By default, the flow is initializated with an example. You can delete all the li
 As you can see, YAML has 2 spaces indent. In the flow editor, you can tab and the cursor will move two spaces to the right.
 
 Just below 'states:', andd the following code.
-
 <pre>
     <code>
     intent:
@@ -24,8 +23,6 @@ Just below 'states:', andd the following code.
           unresolvedIntent: "unresolved"
     </code>
 </pre>
-
-
 The 'intent' state is using a 'System.Intent' component. This component is the one that triggers the Intent resolution.
 
 The variable iResult, thas is already defined in to top part of the flow of type 'nlpresult', is where the Intent resolution data is stored.
@@ -37,3 +34,5 @@ You can have different types of transitions depending on the component:
   * actions: Depending on the action one state will be executed.
   * return: Ends the conversation. All variable values are cleared unless those are stored in the user variable.
   * error: If there is an error on the state, it will transition to the specified state.
+
+It is recommended that every state has a transition defined, but it is not mandatory. If you dont define it, the state execution order is top-bottom.
