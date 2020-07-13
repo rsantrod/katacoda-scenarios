@@ -4,7 +4,7 @@ Copy and paste the following code below 'use strict'; at the begining of the fil
 <pre>
     <code>
     var request = require('request');
-    var openweather_api_key = "<your_api_key>";
+    var openweather_api_key = "your_api_key";
     var dateFormat = require('dateformat');
     </code>
 </pre>

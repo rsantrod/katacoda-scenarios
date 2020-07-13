@@ -1,4 +1,3 @@
-
 Great! All the configurations have been made and now you are ready for implementation!
 You will be copying and understanding the code behind the implementation.
 
@@ -51,7 +50,6 @@ Add the following code inside 'invoke' function.
     const { locationVariable } = conversation.properties();
     const { dateVariable } = conversation.properties();
     const { printVariable } = conversation.properties();
-
     var location = conversation.variable(locationVariable);
     var date = conversation.variable(dateVariable);
     </code>
