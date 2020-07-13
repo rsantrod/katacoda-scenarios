@@ -45,14 +45,6 @@ Actions define the possible outcomes of the component, and it can be defined in 
 
 Next, you will be retrieving the properties and the variable values.
 Add the following code inside 'invoke' function.
-<pre>
-    <code>
-    const { locationVariable } = conversation.properties();
-    const { dateVariable } = conversation.properties();
-    const { printVariable } = conversation.properties();
-    var location = conversation.variable(locationVariable);
-    var date = conversation.variable(dateVariable);
-    </code>
-</pre>
+
 'conversation.properties()' enabled you to retrieve the different properties defined in the component.
 'conversation.variable("variable_name")' and 'conversation.variable("variable_name", value)' enables you to set a variable.
