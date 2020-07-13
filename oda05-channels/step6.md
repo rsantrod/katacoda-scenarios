@@ -47,9 +47,13 @@ Add to 'chatWidgetSettings' json the following property:
 </code></pre>
 
 To test the change made, go to the Terminal tab and make Ctrl + C to stop the process and execute again:
+
 `npm start`{{execute}}
 
 Go back to the 'Web Widget' tab and click on refresh button next to the tab name.
 When opening the widget you will see the massages from the bot.
 
+<pre>
+You can see the full list of available customizations on the user-guide.md file in VSCode tab.
+</pre>
 
