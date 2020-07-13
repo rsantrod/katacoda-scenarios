@@ -9,26 +9,27 @@ For this workshop, we will start the component from scratch, so delete it.
 Now you have to create a new file by right-clicking 'components' folder and selection 'New File'. Name it 'query.js'
 
 Copy and paste the following code in 'query.js' file.
-<pre>
-    <code>
-    'use strict';
 
-    module.exports = {
-     metadata: () => ({
-        name: 'weather.query',
-        properties: {
-          locationVariable: { required: true, type: 'string' },
-          dateVariable: { required: true, type: 'string' },
-          printVariable: { required: true, type: 'string' }
-        },
-        supportedActions: ['success', 'error', 'dateerror']
-     }),
-     invoke: (conversation, done) => {
+  <code>
+  'use strict';
 
-     }
-    };
-    </code>
-</pre>
+  module.exports = {
+    metadata: () => ({
+      name: 'weather.query',
+      properties: {
+        locationVariable: { required: true, type: 'string' },
+        dateVariable: { required: true, type: 'string' },
+        printVariable: { required: true, type: 'string' }
+      },
+      supportedActions: ['success', 'error', 'dateerror']
+    }),
+    invoke: (conversation, done) => {
+
+    }
+  };
+  </code>
+
+
 Metadata help you to define your custom component. In this case you will have three parameters:
   * locationVariable: The location provided by the user.
   * dateVariable: The date provided by the user.
@@ -46,5 +47,5 @@ Actions define the possible outcomes of the component, and it can be defined in 
 Next, you will be retrieving the properties and the variable values.
 Add the following code inside 'invoke' function.
 
-'conversation.properties()' enabled you to retrieve the different properties defined in the component.
+'conversation.properties()' enables you to retrieve the different properties defined in the component.
 'conversation.variable("variable_name")' and 'conversation.variable("variable_name", value)' enables you to set a variable.
