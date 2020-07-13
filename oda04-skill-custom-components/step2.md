@@ -11,7 +11,6 @@ Now you have to create a new file by right-clicking 'components' folder and sele
 Copy and paste the following code in 'query.js' file.
 <pre>
     <code>
-    'use strict';
 
     module.exports = {
      metadata: () => ({
