@@ -55,4 +55,4 @@ Add the following code inside 'invoke' function.
     </code>
 </pre>
 'conversation.properties()' enabled you to retrieve the different properties defined in the component.
-'conversation.variable("variable_name)' and 'conversation.variable("variable_name", value)' enables you to set a variable.
+'conversation.variable("variable_name")' and 'conversation.variable("variable_name", value)' enables you to set a variable.
