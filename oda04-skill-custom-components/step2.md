@@ -9,10 +9,9 @@ For this workshop, we will start the component from scratch, so delete it.
 Now you have to create a new file by right-clicking 'components' folder and selection 'New File'. Name it 'query.js'
 
 Copy and paste the following code in 'query.js' file.
-
+<pre>
   <code>
   'use strict';
-
   module.exports = {
     metadata: () => ({
       name: 'weather.query',
@@ -28,7 +27,7 @@ Copy and paste the following code in 'query.js' file.
     }
   };
   </code>
-
+</pre>
 
 Metadata help you to define your custom component. In this case you will have three parameters:
   * locationVariable: The location provided by the user.
