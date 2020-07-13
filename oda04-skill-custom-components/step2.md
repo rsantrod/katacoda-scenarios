@@ -11,6 +11,7 @@ Now you have to create a new file by right-clicking 'components' folder and sele
 Copy and paste the following code in 'query.js' file.
 <pre>
     <code>
+    'use strict';
 
     module.exports = {
      metadata: () => ({
@@ -54,4 +55,4 @@ Add the following code inside 'invoke' function.
     </code>
 </pre>
 'conversation.properties()' enabled you to retrieve the different properties defined in the component.
-'conversation.variable(<variable_name>)' and 'conversation.variable(<variable_name>, <value>)' enables you to set a variable.
+'conversation.variable("variable_name)' and 'conversation.variable("variable_name", value)' enables you to set a variable.
