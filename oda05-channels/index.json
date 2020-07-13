@@ -48,7 +48,7 @@
         "uilayout": "terminal-iframe",
 		"showdashboard": true,
 		"dashboards": [
-			{"name": "Digital Assistant Web Widget", "href": "https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com"}
+			{"name": "Web Widget", "href": "https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com"}
 		]
   },
   "backend": {
