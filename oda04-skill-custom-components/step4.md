@@ -20,7 +20,6 @@ Copy and paste the following code below the varible within the 'invoke' function
           return;
       }
     }
-
     currentWeather(location).then(function(result){
       if(!date || day == 0){
         var printData = {
