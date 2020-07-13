@@ -16,8 +16,6 @@ Add the following code to the end of the file, outside 'module.exports' block.
 		request('http://api.openweathermap.org/data/2.5/weather?q='+location.name+'&units=metric&appid='+openweather_api_key, { json: true }, (err, res, body) => {
 		  if(err){
 			reject(err);
-		  }else if(body.cod != "200"){
-			reject(body);
 		  }else{
 			resolve(body);
 		  }
@@ -30,8 +28,6 @@ Add the following code to the end of the file, outside 'module.exports' block.
 		request('https://api.openweathermap.org/data/2.5/onecall?lat='+lat+'&lon='+lon+'&exclude=current,minutely,hourly&units=metric&appid='+openweather_api_key, { json: true }, (err, res, body) => {
 		  if(err){
 			reject(err);
-		  }else if(body.cod != "200"){
-			reject(body);
 		  }else{
 			resolve(body);
 		  }
