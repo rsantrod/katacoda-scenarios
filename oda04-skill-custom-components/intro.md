@@ -1,14 +1,8 @@
-
-This scenario will help you to provision an Oracle Digital Assistant instance. 
-
 ![Oracle Digital Assistant Logo](assets/oda-sticker.jpg)
 
-The assumption is that you are the administrator of the tenancy - either a fresh or preexisting cloud trial or a "regular" OCI tenancy.
+In this scenario you will be consuming an external REST service to retrieve weather information.
+In Oracle Digital Assistan this can be achieved by creating a Custom Component using the SDK provided and a couple of Node.js modules.
 
-If you don't have an OCI Tenancy yet, you have to go back to the first scenario in the OCI Course and do the 'Step 1 - Get hold of an OCI Tenancy' to get a Free Trial.
+This is the first scenario of the Oracle Digital Assistant series where you will be using the terminal and VSCode within Katacoda.
 
-You can access the first scenario with the following link:
-https://katacoda.com/redexpertalliance/courses/oci-course/oci-lab-preparation-cloud-trial
-
-
-
+As a prerequisite for this scenario, you have to create a free account on [OpenWeatherMap API](https://openweathermap.org/) and get a API Key.

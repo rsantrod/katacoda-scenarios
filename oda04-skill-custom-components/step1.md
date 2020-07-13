@@ -23,7 +23,15 @@ Then you need to configure the SDK into our project.
 
 `bots-node-sdk init`{{execute}}
 
-Last but not least, in order to execute the component locally you need to install express module as a development dependency.
+In order to execute the component locally you need to install express module as a development dependency.
 
 `npm install --save-dev express`{{execute}}
+
+Request module will enable you to make service calls.
+
+`npm install --save request`{{execute}}
+
+You also need to install dateformat module to easily display the date provided by the user in a specific format.
+
+`npm install --save dateformat`{{execute}}
 

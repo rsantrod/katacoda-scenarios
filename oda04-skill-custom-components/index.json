@@ -6,20 +6,32 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Step 1 - Configuring the environment",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Step 2 - Component Implementation (I)",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Step 3 - Component Implementation (II)",
         "text": "step3.md"
       },
       {
-        "title": "Step 4",
+        "title": "Step 4 - Component Implementation (III)",
         "text": "step4.md"
+      },
+      {
+        "title": "Step 5 - Creating the Service",
+        "text": "step5.md"
+      },
+      {
+        "title": "Step 6 - Calling Custom Component from dialog flow",
+        "text": "step6.md"
+      },
+      {
+        "title": "Step 7 - Testing the skill",
+        "text": "step7.md"
       }
     ],
     "intro": {

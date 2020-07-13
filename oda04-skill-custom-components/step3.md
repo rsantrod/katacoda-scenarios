@@ -1,19 +1,47 @@
-Now you can click on 'Create Digital Assistant Instance' button.
+Now you will create two Promises containing each one a REST call to OpenWeatherMap API.
 
-![OCI console - Create Digital Assistant Instance button](assets/create-instance-button.jpg)
+Copy and paste the following code below 'use strict'; at the begining of the file.
+<pre>
+    <code>
+    var request = require('request');
+    var openweather_api_key = "<your_api_key>";
+    var dateFormat = require('dateformat');
+    </code>
+</pre>
+Add the following code to the end of the file, outside 'module.exports' block.
+<pre>
+    <code>
+	var currentWeather = function(location){
+	  return new Promise(function(resolve, reject){
+		request('http://api.openweathermap.org/data/2.5/weather?q='+location.name+'&units=metric&appid='+openweather_api_key, { json: true }, (err, res, body) => {
+		  if(err){
+			reject(err);
+		  }else if(body.cod != "200"){
+			reject(body);
+		  }else{
+			resolve(body);
+		  }
+		});
+	  });
+	}
 
-In the dialog, you have to mandatory fill name and shape.
+	var sevenDaysForecast = function(lat, lon){
+	  return new Promise(function(resolve, reject){
+		request('https://api.openweathermap.org/data/2.5/onecall?lat='+lat+'&lon='+lon+'&exclude=current,minutely,hourly&units=metric&appid='+openweather_api_key, { json: true }, (err, res, body) => {
+		  if(err){
+			reject(err);
+		  }else if(body.cod != "200"){
+			reject(body);
+		  }else{
+			resolve(body);
+		  }
+		});
+	  });
+	}
+    </code>
+</pre>
+The first function, 'currentWeather' is calling Current Weather Data API. With this API you have different ways of providing the location as a query parameter such as latitude/longitude, ZIP code, City Name, etc.
+For this hands-on you will be passing the location name. 
+'units=metric' will set the weather info into Celsius. YOu can remove it if you want to temperature to be in Kelvin, or set metric to Imperial if you want Fahrenheit.
 
-![OCI console - Create Digital Assistant Instance dialog](assets/create-instance-dialog.jpg)
-
-1. For the name, you can add something that identifies your instance. In the screen you can see I named it 'odadev'.
-
-2. For the shape, you have two options:
-
-  * Development: minimum charge of 50 request per hour at the time of writing.
-
-  * Production: minimum charge of 250 request per hour at the time of writing.
-
-As you can see, the only difference is the number of requests and, for this hands-on, you can use the development shape so yoour credits will last longer.
-
-Once you have filled the details click on 'Create'.
+The second function 'sevenDaysForecast' will call the One Call API. THis API cam return 7-days of weather forecast. You can only provide latitude and longitude to query this service. 
