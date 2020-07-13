@@ -22,7 +22,6 @@ Add the following code to the end of the file, outside 'module.exports' block.
 		});
 	  });
 	}
-
 	var sevenDaysForecast = function(lat, lon){
 	  return new Promise(function(resolve, reject){
 		request('https://api.openweathermap.org/data/2.5/onecall?lat='+lat+'&lon='+lon+'&exclude=current,minutely,hourly&units=metric&appid='+openweather_api_key, { json: true }, (err, res, body) => {
