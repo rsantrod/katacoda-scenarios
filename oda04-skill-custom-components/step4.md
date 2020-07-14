@@ -3,7 +3,7 @@ Now that the services call are implemented, it is time to beging the business lo
 Using the free services the bot will allow the users to ask the weather forecast for any date within the next seven days.
 One Call API already returns 7 days information (including current weather information), but as it requires latitude and longitude, and this is something you don't have at the moment, the component will be calling Current Weather API first to retrive current weather if the user requests today's weather or the coordinates if the user select another day.
 
-It is not mandatory for the user to provide a date, so if no date is provided the componen will just retrive today's weatger information.
+It is not mandatory for the user to provide a date, so if no date is provided the componen will just retrive today's weather information.
 
 Copy and paste the following code below the varible within the 'invoke' function.
 <pre>
