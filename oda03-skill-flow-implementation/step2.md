@@ -28,22 +28,22 @@ Something to take into account is that we are using keepTurn property on 'greet'
 Now we you will take care of the 'unresolvedIntent' states. Copy and add this code at the end of the existing code.
 <pre>
     <code>
-    unresolved:
-      component: "System.List"
-      properties:
-        prompt: "I'm sorry but I cannot help you with that! Do you want to know the weather forecast?"
-        options: "Yes, No"
-      transitions:
-        actions:
-          Yes: "initWeatherForecast"
-          No: "endUnresolved"
-     
-    endUnresolved:
-      component: "System.Output"
-      properties:
-        text: "I'm sorry to hear that. Please come back once you need to know more about the weather forecast!"
-      transitions:
-        return: "done"
+unresolved:
+  component: "System.List"
+  properties:
+    prompt: "I'm sorry but I cannot help you with that! Do you want to know the weather forecast?"
+    options: "Yes, No"
+  transitions:
+    actions:
+      Yes: "initWeatherForecast"
+      No: "endUnresolved"
+  
+endUnresolved:
+  component: "System.Output"
+  properties:
+    text: "I'm sorry to hear that. Please come back once you need to know more about the weather forecast!"
+  transitions:
+    return: "done"
     </code>
 </pre>
 
