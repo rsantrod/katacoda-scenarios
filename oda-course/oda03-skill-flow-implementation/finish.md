@@ -1,13 +1,11 @@
 # Summary
 
-To be completed
+You have learned how to implement the dialog flow of your skill using some of the built-in components such as Intent, List and CommonResponse.
 
-You have now finished the second scenario!
-
-
+In the next scenario you will be implementing you own Custom Component and integrating it in the dialog flow.
 
 ## Resources
 
-To be completed
+[Oracle Digital Assistant - The Dialog Flow Definition](https://docs.cloud.oracle.com/en-us/iaas/digital-assistant/doc/dialog-flow-definition.html)
 
-[test link](https://www.avanttic.com)
+[Oracle Digital Assistant Enablement documentation](http://bit.ly/ODAEnablement)

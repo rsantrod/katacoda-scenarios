@@ -5,7 +5,7 @@
   "courses": [
     {
       "course_id": "oda01-provisioning",
-      "title": "Preparation of Cloud Trial tenancy for REAL OCI scenarios",
+      "title": "Provisioning an Oracle Digital Assistant instance",
       "description": "In this scenario you will provision an Oracle Digital Assistant instance"
     },
     {
