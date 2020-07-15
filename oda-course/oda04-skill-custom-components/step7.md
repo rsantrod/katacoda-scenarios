@@ -17,7 +17,7 @@ If you have missed something or the code is not working, you can get the full fl
 &nbsp;
 &nbsp;
 
-And the working custom component code can be found in this link: [Scenario 4 Flow Definition](https://github.com/rsantrod/katacoda-oda-weather-component)
+And the working custom component code can be found in this link: [Scenario 4 Custom Component](https://github.com/rsantrod/katacoda-oda-weather-component)
 
 &nbsp;
 &nbsp;
