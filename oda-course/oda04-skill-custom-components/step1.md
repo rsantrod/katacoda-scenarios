@@ -23,11 +23,7 @@ Then you need to configure the SDK into our project.
 
 `bots-node-sdk init`{{execute}}
 
-In order to execute the component locally you need to install express module as a development dependency.
-
-`npm install --save-dev express`{{execute}}
-
-Request module will enable you to make service calls.
+Request module will enable you to make service calls. THis module is deprecated and for production usage you should consider other modules like https (part of Node code), Axios or Alike.
 
 `npm install --save request`{{execute}}
 
