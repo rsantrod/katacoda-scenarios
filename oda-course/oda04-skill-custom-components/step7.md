@@ -8,3 +8,5 @@ In the image above you can see, on the right-hand side that the different states
 If you check bellow, in the variables list, under weather array, the first position has the data to be printed.
 
 If you have missed something or the code is not working, you can get the full flow definition in the following link: [Scenario 4 Flow Definition](https://github.com/rsantrod/katacoda-scenarios/blob/master/oda-course/oda04-skill-custom-components/assets/flow.yaml)
+
+And the working custom component code can be found in this link: [Scenario 4 Flow Definition](https://github.com/rsantrod/katacoda-oda-weather-component)
