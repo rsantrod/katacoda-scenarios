@@ -7,7 +7,7 @@ At the time of writing, there are two models available.
 
 ![Oracle Digital Assistant Train button](assets/train-button.jpg) Click on the 'Train' button and select 'Trainer Ht'.
 
-Once the trainig has finnished, you can start testing. On the intents apge, click on 'Try It Out!' link.
+Once the trainig has finnished, you can start testing. On the intents page, click on 'Try It Out!' link.
 
 You can write the phrase on the tester and it will be evaluated, asigning a confidence percentage to each Intent.
 You can try the following phrases.

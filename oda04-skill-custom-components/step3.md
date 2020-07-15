@@ -1,6 +1,7 @@
 Now you will create two Promises containing each one a REST call to OpenWeatherMap API.
 
 Copy and paste the following code below 'use strict'; at the begining of the file.
+You have to replace 'your_api_key' with the API KEY you got from OpenWeatherMap.
 <pre>
     <code>
     var request = require('request');

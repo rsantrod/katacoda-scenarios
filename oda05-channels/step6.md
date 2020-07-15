@@ -6,15 +6,15 @@ As we are ignoring, or not enabling client authentication, you have to make sure
 	4 const isClientAuthEnabled = false;
 </code></pre>
 Next part is where you will be making the widget customizations, function 'initSdk'.
-First you need to modify 'URI' value with the host name of your instance. You can see an example below.
+First you need to modify 'ODA_URI' value with the host name of your instance. You can see an example below.
 
 ![Oracle Digital Assistant URI](assets/oda-uri.jpg)
 
-And, for 'channelId', you need the get de channelID from the channel you created in Step 3.
+And, for 'channelID', you need the get de channelID from the channel you created in Step 3.
 <pre><code>
 	let chatWidgetSettings = {
 		URI: 'ODA_URI',                    
-		channelId: '<channelID>',
+		channelId: 'channelID',
 		...
 		...
 	}

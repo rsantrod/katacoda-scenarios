@@ -4,42 +4,42 @@ First, you need to define two variables. This can be done in the top part of the
 Check your code so it looks like the following.
 <pre>
     <code>
-    context:
-      variables:
-        location: "LOCATION"
-        date: "DATE"
-        iResult: "nlpresult"
+context:
+  variables:
+    location: "LOCATION"
+    date: "DATE"
+    iResult: "nlpresult"
     </code>
 </pre>
 Add the following code at the end of the existing code.
 <pre>
     <code>
-initWeatherForecast:
-  component: "System.SetVariable"
-  properties:
-    variable: "date"
-    value: "${iResult.value.entityMatches['DATE'][0]}"
-  transitions:
-    next: "setAskForLocation"
+  initWeatherForecast:
+    component: "System.SetVariable"
+    properties:
+      variable: "date"
+      value: "${iResult.value.entityMatches['DATE'][0]}"
+    transitions:
+      next: "setAskForLocation"
 
-setAskForLocation:
-  component: "System.Text"
-  properties:
-    prompt: "Please let me know what city do you want to search for"
-    variable: "location"
-    maxPrompts: 2
-    nlpResultVariable: "iResult"      
-  transitions:
-    next: "printWeather"
-    actions:
-      cancel: "noLocation"
+  setAskForLocation:
+    component: "System.Text"
+    properties:
+      prompt: "Please let me know what city do you want to search for"
+      variable: "location"
+      maxPrompts: 2
+      nlpResultVariable: "iResult"      
+    transitions:
+      next: "printWeather"
+      actions:
+        cancel: "noLocation"
 
-noLocation:
-  component: "System.Output"
-  properties:
-    text: "I need a location to provide the weather. Please type for example 'What's the weather in London'"
-  transitions:
-    return: "done"
+  noLocation:
+    component: "System.Output"
+    properties:
+      text: "I need a location to provide the weather. Please type for example 'What's the weather in London'"
+    transitions:
+      return: "done"
     </code>
 </pre>
 

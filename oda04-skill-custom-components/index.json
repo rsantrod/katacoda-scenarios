@@ -2,7 +2,7 @@
   "title": "Custom Components to access external data sources",
   "description": "In this scenario you will provision an Oracle Digital Assistant instance",
   "difficulty": "Beginner",
-  "time": "5 minutes",
+  "time": "15 minutes",
   "details": {
     "steps": [
       {

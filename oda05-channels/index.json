@@ -2,36 +2,32 @@
   "title": "Setup and customize a web widget to expose your ODA Skill",
   "description": "In this scenario you will provision an Oracle Digital Assistant instance",
   "difficulty": "Beginner",
-  "time": "5 minutes",
+  "time": "15 minutes",
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Step 1 - Create a channel",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Step 2 - Create a channel",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Step 3 - Create a channel",
         "text": "step3.md"
       },
       {
-        "title": "Step 4",
+        "title": "Step 4 - Setting up the environment",
         "text": "step4.md"
       },
       {
-        "title": "Step 5",
+        "title": "Step 5 - Understanding the SDK",
         "text": "step5.md"
       },
       {
-        "title": "Step 6",
+        "title": "Step 6 - Customize & Test the widget",
         "text": "step6.md"
-      },
-      {
-        "title": "Step 7",
-        "text": "step7.md"
       }
     ],
     "intro": {
