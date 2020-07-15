@@ -17,7 +17,7 @@ In this case you will use it to display the information as a card.
           - title: "Madrid - 15/07/2020"
             description: "20º - Clear"
             imageUrl: "http://openweathermap.org/img/wn/10d@2x.png"
-            cardUrl: "https://www.redexpertalliance.com/" 
+            cardUrl: "https://www.redexpertalliance.com" 
     transitions:
       next: "endConversationThanks"
     </code>
