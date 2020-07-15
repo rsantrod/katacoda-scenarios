@@ -13,7 +13,7 @@ Copy and paste the following code below the varible within the 'invoke' function
     const now = today.getTime();
     if(date){
       const diffTime = Math.abs(date.date - now);
-      day = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+      day = Math.ceil(diffTime / (1000 &amp; 60 &amp; 60 &amp; 24));
       if(day > 7){
           conversation.transition("dateerror");
           done();
