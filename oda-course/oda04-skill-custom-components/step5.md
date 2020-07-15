@@ -8,7 +8,7 @@ Inside of your Weather Skill, click on the ![Oracle Digital Assistant Components
 
 Click on '+ Service' button and the following dialgo will appear.
 
-![Oracle Digital Assistant Components](assets/menu-custcomponents.jpg)
+![Oracle Digital Assistant Components](assets/create-service.jpg)
 
 There are different ways of running custom components in ODA.
   * Embedded Container: You can upload the package to ODA.
