@@ -22,6 +22,14 @@ You can try to play with it using different phrases, for example, the ones you u
 | is it snowing in Madrid?                  |
 | Whats the weather in London for tomorrow? |
 
----------------------------
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
 If you have missed something or the code is not working, you can get the full flow definition in the following link: [Scenario 3 Flow Definition](https://github.com/rsantrod/katacoda-scenarios/blob/master/oda-course/oda03-skill-flow-implementation/assets/flow.yaml)
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
