@@ -1,7 +1,3 @@
-#metadata: information about the flow
-#  platformVersion: the version of the bots platform that this flow was written to work with 
-metadata:
-  platformVersion: "1.1"
 main: true
 name: WeatherSkill
 #context: Define the variables which will used throughout the dialog flow here.
