@@ -8,8 +8,9 @@ As we are ignoring, or not enabling client authentication, you have to make sure
 Next part is where you will be making the widget customizations, function 'initSdk'.
 First you need to modify 'ODA_URI' value with the host name of your instance. You can see an example below.
 
+
 ![Oracle Digital Assistant URI](assets/oda-uri.jpg)
-![Oracle Digital Assistant test weather madrid](assets/widget-madrid-test.jpg)
+
 
 And, for 'channelID', you need the get de channelID from the channel you created in Step 3.
 <pre><code>
