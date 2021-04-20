@@ -2,25 +2,26 @@ Now, lets review in settings.js file in a bit more detail as you will be modifyi
 
 The first few functions: mockApiCall, generateJWTToken and generateToken are a starting point in case you want to enforce client authentication in your channel, so you can ignore it for this hands-on.
 As we are ignoring, or not enabling client authentication, you have to make sure that 'isClientAuthEnabled' is set to false.
+
 <pre><code>
 	4 const isClientAuthEnabled = false;
 </code></pre>
+
 Next part is where you will be making the widget customizations, function 'initSdk'.
 First you need to modify 'ODA_URI' value with the host name of your instance. You can see an example below.
 
-
 ![Oracle Digital Assistant URI](assets/oda-uri.jpg)
 
-
 And, for 'channelID', you need the get de channelID from the channel you created in Step 3.
-<pre><code>
+
+```javascript
 	let chatWidgetSettings = {
 		URI: 'ODA_URI',                    
 		channelId: 'channelID',
 		...
 		...
 	}
-</code></pre>	
+```	
 
 As an example of modifications, you are going to change the color of some elements.
 For that, add to 'chatWidgetSettings' json the following property:
