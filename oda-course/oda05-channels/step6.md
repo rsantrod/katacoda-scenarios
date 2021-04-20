@@ -41,7 +41,7 @@ Go to the 'Web Widget' tab to see the widget.
 
 Try to ask for the weather in your city!
 
-![Oracle Digital Assistant test weather madrid](assets/weather-madrid.jpg)
+![Oracle Digital Assistant test weather madrid](assets/widget-madrid-test.jpg)
 
 There are multiple settings that can be overriden, and not just in terms of appearance. For example, we will send a hidden message to trigger Greetings Intent so the bot greets the user instead of the user having to say hello.
 

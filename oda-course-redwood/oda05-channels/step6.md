@@ -9,6 +9,7 @@ Next part is where you will be making the widget customizations, function 'initS
 First you need to modify 'ODA_URI' value with the host name of your instance. You can see an example below.
 
 ![Oracle Digital Assistant URI](assets/oda-uri.jpg)
+![Oracle Digital Assistant test weather madrid](assets/widget-madrid-test.jpg)
 
 And, for 'channelID', you need the get de channelID from the channel you created in Step 3.
 <pre><code>
@@ -41,7 +42,7 @@ Go to the 'Web Widget' tab to see the widget.
 
 Try to ask for the weather in your city!
 
-![Oracle Digital Assistant test weather madrid](assets/weather-madrid.jpg)
+![Oracle Digital Assistant test weather madrid](assets/widget-madrid-test.jpg)
 
 There are multiple settings that can be overriden, and not just in terms of appearance. For example, we will send a hidden message to trigger Greetings Intent so the bot greets the user instead of the user having to say hello.
 
