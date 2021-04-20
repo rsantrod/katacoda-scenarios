@@ -18,6 +18,8 @@ Before going further with your skill definition, in this step you will see an qu
 
 * ![Oracle Digital Assistant Components menu](assets/menu-custcomponents.jpg) Components. In this page you can define service connections to your custom components. 
 
+* ![Oracle Digital Assistant MAnufacturing menu](assets/menu-manufactoring.jpg) Manufacturing. Offer tools to enhance conversational data from all stakeholders. 
+
 * ![Oracle Digital Assistant Settings menu](assets/menu-settings.jpg) Skill settings. 
 
 

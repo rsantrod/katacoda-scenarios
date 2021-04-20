@@ -4,7 +4,7 @@ First of all, theres a button '+ Components' where you have code snippets for al
 
 ![Oracle Digital Assistant - component palette](assets/components-palete.jpg)
 
-By default, the flow is initializated with an example. You can delete all the lines below 'states:' (in line 28) because you will be adding and understanding new code.
+By default, the flow is initializated with an example. You can delete all the lines below 'states:' (in line 24) because you will be adding and understanding new code.
 
 As you can see, YAML has 2 spaces indent. In the flow editor, you can tab and the cursor will move two spaces to the right.
 
