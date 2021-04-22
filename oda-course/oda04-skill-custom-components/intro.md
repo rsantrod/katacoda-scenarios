@@ -20,4 +20,4 @@ First make sure to remove the previous skill
 
 Then click on import and select the downloaded file!
 
-![Oracle Digital Assistant - Import Skill](import-skill.JPG)
+![Oracle Digital Assistant - Import Skill](assets/import-skill.JPG)
