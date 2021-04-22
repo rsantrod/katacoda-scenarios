@@ -98,18 +98,15 @@ states:
     properties:
       keepTurn: true
       processUserMessage: true
-      autoNumberPostbackActions:
-      translate:
       metadata: 
         responseItems:         
         - type: "cards" 
           cardLayout: "vertical"
-          footerText:
           cards:
-          - title: "Card title"
-            description: "Card description"
+          - title: "Madrid - 22/04/2021"
+            description: "Clear - 20º"
             imageUrl: "http://openweathermap.org/img/wn/10d@2x.png"
-            cardUrl: "http://www.oracle.com" 
+            cardUrl: "https://www.redexpertalliance.com/" 
     transitions:
       next: "endConversationThanks"
       
