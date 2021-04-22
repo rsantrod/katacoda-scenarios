@@ -93,24 +93,6 @@ states:
     transitions:
       return: "done"
 
-  showDateError:
-    component: "System.Output"
-    properties:
-      text: "I'm sorry but none can see that far away! I can only let you know the weather for the next seven days! Please try again!"
-    transitions:
-      return: "done"
-
-  queryWeather:
-    component: "weather.query"
-    properties:
-      locationVariable: "location"
-      dateVariable: "date"
-      printVariable: "weather"
-    transitions:
-     actions:
-       success: "printWeather"
-       dateerror: "showDateError"
-
   printWeather:
     component: "System.CommonResponse"
     properties:
