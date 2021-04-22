@@ -16,8 +16,8 @@ I you had problems with the previous lab, you can download the working skill tha
 
 First make sure to remove the previous skill
 
-![Oracle Digital Assistant - Remove Skill](assets/remove-skill.JPG)
+![Oracle Digital Assistant - Remove Skill](assets/remove-skill.jpg)
 
 Then click on import and select the downloaded file!
 
-![Oracle Digital Assistant - Import Skill](assets/import-skill.JPG)
+![Oracle Digital Assistant - Import Skill](assets/import-skill.jpg)
