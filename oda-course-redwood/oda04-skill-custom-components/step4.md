@@ -26,7 +26,7 @@ Copy and paste the following code below the varible within the 'invoke' function
           "temp": result.main.temp,
           "weather": result.weather[0].main,
           "icon": "http://openweathermap.org/img/wn/"+result.weather[0].icon+"@2x.png",
-          "date": dateFormat(today, "dd/mm/yyyy")
+          "date": moment().format('DD/MM/YYYY')
         };
         return printData;
       }else{
@@ -37,7 +37,7 @@ Copy and paste the following code below the varible within the 'invoke' function
             "temp": forecastResult.daily[day].temp.day,
             "weather": forecastResult.daily[day].weather[0].main,
             "icon": "http://openweathermap.org/img/wn/"+forecastResult.daily[day].weather[0].icon+"@2x.png",
-            "date": dateFormat(newDate, "dd/mm/yyyy")
+            "date": moment(newDate).format('DD/MM/YYYY')
           };
           return printData;
         }).catch(function(err){
@@ -57,6 +57,7 @@ Copy and paste the following code below the varible within the 'invoke' function
     });
     </code>
 </pre>
+
 In the first part of the code, you are just setting a few variables to be used later.
   * day variable will store the number of days from today, being today 0, tomorrow 1, etc. It will be used to get the specific position in the One Call API response.
   * today and now will be used to calculate the number of days from the user requests to today.

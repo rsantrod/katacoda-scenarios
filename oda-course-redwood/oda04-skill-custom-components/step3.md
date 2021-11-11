@@ -6,7 +6,7 @@ You have to replace 'your_api_key' with the API KEY you got from OpenWeatherMap.
     <code>
     var request = require('request');
     var openweather_api_key = "your_api_key";
-    var dateFormat = require('dateformat');
+    var moment = require('moment');
     </code>
 </pre>
 Add the following code to the end of the file, outside 'module.exports' block.

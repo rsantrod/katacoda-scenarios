@@ -27,7 +27,7 @@ Request module will enable you to make service calls. THis module is deprecated 
 
 `npm install --save request`{{execute}}
 
-You also need to install dateformat module to easily display the date provided by the user in a specific format.
+You also need to install moment js module to easily display the date provided by the user in a specific format.
 
-`npm install --save dateformat`{{execute}}
+`npm install --save moment`{{execute}}
 
