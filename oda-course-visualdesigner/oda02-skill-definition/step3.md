@@ -4,7 +4,7 @@ Before going further with your skill definition, in this step you will see an qu
 
 * ![Oracle Digital Assistant intents menu](assets/menu-entities.jpg) An entity is a variable that adds relevance to an Intent. ODA includes some out-if-the-box entities and in this page you can create new entities such as Value List, Regular Expressions, etc. 
 
-* ![Oracle Digital Assistant dialog flow menu](assets/menu-dialogflow.jpg) The dialog flow definition in ODA is implemented in YAML. Here you can define the different states you conversation will have.
+* ![Oracle Digital Assistant flows menu](assets/menu-dialogflow.jpg) The dialog flow definition in ODA is now implemented with a Visual Designer and organized by reusable flows.
 
 * ![Oracle Digital Assistant conversational designer menu](assets/menu-conversationdesigner.jpg) The Conversation Designer is an easy way to start building a conversation without a single line of code. You will find it very usefull for quick prototypes.
 

@@ -22,12 +22,16 @@
         "text": "step4.md"
       },
       {
-        "title": "Step 5 - Add Entities to the Intents",
+        "title": "Step 5 - Create a Composite Bag entity",
         "text": "step5.md"
       },
       {
-        "title": "Step 6 - Testing & Training",
+        "title": "Step 6 - Add Entities to the Intents",
         "text": "step6.md"
+      },
+      {
+        "title": "Step 7 - Testing & Training",
+        "text": "step7.md"
       }
     ],
     "intro": {
